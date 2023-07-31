@@ -10,7 +10,7 @@ export default function Home() {
     const size = isHovered ? 250 : 25;
 
   return (
-      <motion.div className={styles.main}>
+      <div className={styles.main}>
           <motion.div
               className={styles.mask}
 
@@ -31,6 +31,6 @@ export default function Home() {
          <div className={styles.body}>
              <p>Merhaba Dünya</p>
          </div>
-      </motion.div>
+      </div>
   )
 }
